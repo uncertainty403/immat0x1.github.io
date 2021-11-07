@@ -5,8 +5,7 @@ body {
   font-weight: 400;
   font-variation-settings: 'opsz'17;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px;
 }
 
 header {
@@ -29,10 +28,11 @@ header {
 .divider {
   height: 1px;
   background: #FFFFFF25;
-  margin: 20px 0px;
+  margin: 15px 0px;
   width: auto;
   align-items: center;
   display: flex;
+  flex-direction: row;
 }
 
 .divtext {
@@ -67,13 +67,12 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: -5px 0px;
+  -webkit-tap-highlight-color: #FFFFFF00;
+  -moz-tap-highlight-color: #FFFFFF00;
 }
 
 .links a{
   border: 1.5px solid #FFFFFF25;
-  -webkit-tap-highlight-color: #FFFFFF00;
-  -moz-tap-highlight-color: #FFFFFF00;
   border-radius: 20px;
   padding: 15px 15px;
   transition: 0.3s;
@@ -102,6 +101,7 @@ footer {
 
 .list {
   display: flex;
+  width: auto;
   flex-direction: column;
   -webkit-tap-highlight-color: #FFFFFF00;
   -moz-tap-highlight-color: #FFFFFF00;
@@ -113,8 +113,8 @@ footer {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  padding: 5px 0px;
   transition: 0.3s;
+  margin: 5px 0px;
 }
 
 .list a:hover {
@@ -125,9 +125,9 @@ footer {
   z-index: 1;
 }
 
-.tinkoff:hover {box-shadow: 0 0 12px #FFDD2D;}
-.sber:hover {box-shadow: 0 0 12px #21A038;}
-.qiwi:hover {box-shadow: 0 0 12px #FF8C00;}
+.tinkoff:hover {box-shadow: 0 0 10px #FFDD00;}
+.sber:hover {box-shadow: 0 0 10px #21A038;}
+.qiwi:hover {box-shadow: 0 0 10px #FF8C00;}
 
 .listpic {
   height: 50px;
