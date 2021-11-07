@@ -85,11 +85,10 @@ footer {
 }
 
 .links a:hover {
-  background: #00000033;
+  background: #00000020;
   margin-right: -10px;
   margin-left: -10px;
   font-size: 16px;
-  border: 0px solid #00000033;
 }
 
 #page-preloader {
