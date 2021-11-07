@@ -1,0 +1,174 @@
+body {
+  font-size: 14px;
+  background: #1C1B1B;
+  font-family: gsans;
+  font-weight: 400;
+  font-variation-settings: 'opsz'17;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.desc {
+  font-size: 12px;
+  color: #848484;
+  margin-top: -25px;
+}
+
+.name {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  font-variation-settings: 'opsz'18;
+}
+
+.divider {
+  height: 1px;
+  background: #FFFFFF25;
+  margin: 20px 0px;
+  width: auto;
+  align-items: center;
+  display: flex;
+}
+
+.divtext {
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #1C1B1B;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: white;
+}
+
+footer {
+  font-family: gsans;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.profpic {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #FFFFFF50;
+  border-radius: 100%;
+}
+
+.links {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: -5px 0px;
+}
+
+.links a{
+  border: 2px solid #FFFFFF25;
+  -webkit-tap-highlight-color: #FFFFFF00;
+  -moz-tap-highlight-color: #FFFFFF00;
+  border-radius: 20px;
+  padding: 15px 15px;
+  transition: 0.3s;
+  vertical-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0px;
+}
+
+.links a:hover {
+  background: #00000033;
+  margin-right: -10px;
+  margin-left: -10px;
+  font-size: 16px;
+  border: 0px solid #00000033;
+}
+
+#page-preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: black;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  -webkit-tap-highlight-color: #FFFFFF00;
+  -moz-tap-highlight-color: #FFFFFF00;
+}
+
+.list a {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 5px 0px;
+  transition: 0.3s;
+}
+
+.list a:hover {
+  background: #00000020;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.tinkoff:hover {box-shadow: 0 0 12px #FFDD2D;}
+.sber:hover {box-shadow: 0 0 12px #21A038;}
+.qiwi:hover {box-shadow: 0 0 12px #FF8C00;}
+
+.listpic {
+  height: 50px;
+  width: 50px;
+  background: #FFFFFF10;
+  border-radius: 100px;
+}
+
+.listdesc {
+  font-size: 12px;
+  color: #848484;
+}
+
+.listname {
+  font-weight: 600;
+}
+
+.listinfo {
+  height: auto;
+  color: white;
+  text-align: left;
+  color: white;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.actbtns {
+  margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.listbtn {
+  padding: 10px;
+  background: #FFFFFF10;
+  border-radius: 100px;
+  margin: auto 5px auto auto;
+}
+
+.listbtn:hover {
+  background: #FFFFFF20;
+}
