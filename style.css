@@ -37,7 +37,6 @@ header {
 
 .divtext {
   padding-right: 5px;
-  padding-left: 5px;
   background: #1C1B1B;
   width: auto;
   height: auto;
@@ -72,7 +71,7 @@ footer {
 }
 
 .links a{
-  border: 2px solid #FFFFFF25;
+  border: 1.5px solid #FFFFFF25;
   -webkit-tap-highlight-color: #FFFFFF00;
   -moz-tap-highlight-color: #FFFFFF00;
   border-radius: 20px;
