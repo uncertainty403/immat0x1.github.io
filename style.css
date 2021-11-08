@@ -149,6 +149,7 @@ footer {
   background: #FFFFFF10;
   border-radius: 100px;
   margin: auto 5px auto auto;
+  cursor: pointer;
 }
 
 .listbtn:hover {
