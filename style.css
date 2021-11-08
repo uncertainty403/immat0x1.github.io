@@ -33,7 +33,7 @@ header {
   height: 1px;
   border-top: 1px solid #FFFFFF25;
   border-radius: 1px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   width: auto;
   align-items: center;
   display: flex;
@@ -72,33 +72,6 @@ footer {
   height: 175px;
   border-radius: 30px;
 }
-.links {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  -webkit-tap-highlight-color: #FFFFFF00;
-  -moz-tap-highlight-color: #FFFFFF00;
-  padding: 5px 0px;
-}
-
-.links a{
-  border: 1px solid #FFFFFF25;
-  border-radius: 20px;
-  padding: 15px 15px;
-  transition: 0.3s;
-  vertical-align: center;
-  text-decoration: none;
-  color: white;
-  margin: 5px 0px;
-}
-
-.links a:hover {
-  background: #00000020;
-  padding: 16px 16px;
-  margin: 10px 16px;
-  font-size: 16px;
-}
 
 #page-preloader {
   position: fixed;
@@ -125,7 +98,8 @@ footer {
   flex-direction: row;
   text-decoration: none;
   transition: 0.3s;
-  margin: 10px 0px;
+  margin: 5px 0px;
+  padding: 5px;
 }
 
 .list a:hover {
@@ -146,6 +120,9 @@ footer {
 .listdesc {
   font-size: 12px;
   color: #848484;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: auto;
 }
 
 .listname {
@@ -177,3 +154,10 @@ footer {
 .listbtn:hover {
   background: #FFFFFF20;
 }
+
+.tg {background: #34aadf;}
+.vk {background: #0077FF;}
+.github, .spotify {background: black;}
+.qiwi {background: #FF8C00;}
+.tinkoff {background: #FFDD2D;}
+.sber {background: #21A038;}
